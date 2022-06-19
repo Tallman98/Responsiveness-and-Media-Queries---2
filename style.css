@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.colored-page {
+  background: url("./assets/icons/bg-hero-desktop.svg");
+  padding: 45px;
+  min-height: 520px;
+  background-size: cover;
+}
+
+.colored-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-logo {
+  width: 150px;
+}
+.header-logo img {
+  width: 100%;
+}
+
+.colored-page header .try-button {
+  background-color: #f5f5f5;
+  color: hsl(192, 100%, 9%);
+  border: none;
+  border-radius: 30px;
+  padding: 8px 50px;
+  font-family: Poppins;
+  font-weight: 400;
+  box-shadow: 0px 1px 3px 1px rgba(44, 45, 45, 0.8);
+}
+
+.first-engagement {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  justify-content: space-between;
+}
+
+.mockups {
+  width: 100%;
+}
+
+.mockups img {
+  width: 100%;
+}
+
+.mockups-text {
+  margin-right: 45px;
+  padding-right: 35px;
+}
+
+.mockups-text h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 40px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+  color: hsl(192, 100%, 9%);
+}
+
+.mockups-text p {
+  font-family: Open Sans;
+  margin-bottom: 20px;
+}
+
+.mockups-button {
+  background-color: hsl(322, 100%, 66%);
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 55px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 11px;
+  box-shadow: 0px 1px 3px 1px rgba(36, 36, 36, 0.8);
+}
+.white-bg {
+  margin: 40px;
+  padding: 35px;
+}
+
+.grow-together {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid;
+  border-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 1px rgba(50, 50, 50, 0.8);
+}
+
+.grow-together-image {
+  width: 50%;
+}
+
+.grow-together-image img {
+  width: 100%;
+}
+.grow-together-text {
+  margin: 30px;
+  padding: 30px;
+}
+
+.grow-together-text h3 {
+  font-family: Poppins;
+  margin-bottom: 20px;
+  color: hsl(192, 100%, 9%);
+}
+.grow-together-text p {
+  padding-right: 30px;
+  margin-right: 30px;
+  color: hsl(208, 11%, 55%);
+  font-family: Open Sans;
+}
+
+.flowing-conversations {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid;
+  border-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 1px rgba(50, 50, 50, 0.8);
+}
+
+.flowing-conversations-image {
+  width: 50%;
+}
+
+.flowing-conversations-image img {
+  width: 100%;
+}
+
+.flowing-conversations-text {
+  margin: 30px;
+  padding: 30px;
+}
+
+.flowing-conversations-text h3 {
+  font-family: Poppins;
+  margin-bottom: 20px;
+  color: hsl(192, 100%, 9%);
+}
+
+.flowing-conversations-text p {
+  padding-right: 30px;
+  margin-right: 30px;
+  color: hsl(208, 11%, 55%);
+  font-family: Open Sans;
+}
+
+.your-users {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 40px;
+  border: 1px solid;
+  border-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 1px rgba(50, 50, 50, 0.8);
+}
+
+.your-users-image {
+  width: 50%;
+}
+
+.your-users-image img {
+  width: 100%;
+}
+.your-users-text {
+  margin: 30px;
+  padding: 30px;
+}
+
+.your-users-text h3 {
+  font-family: Poppins;
+  margin-bottom: 20px;
+  color: hsl(192, 100%, 9%);
+}
+.your-users-text p {
+  padding-right: 30px;
+  margin-right: 30px;
+  color: hsl(208, 11%, 55%);
+  font-family: Open Sans;
+}
+.get-started-button {
+  background-color: hsl(322, 100%, 66%);
+  color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 30px;
+  padding: 20px 65px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 13px;
+  box-shadow: 0px 1px 3px 1px rgba(36, 36, 36, 0.8);
+}
+
+.sub-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px;
+  padding: 70px;
+  border: 1px solid;
+  border-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 1px rgba(50, 50, 50, 0.8);
+}
+.sub-footer h3 {
+  font-family: Poppins;
+  margin-bottom: 25px;
+  color: hsl(192, 100%, 9%);
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  display: grid;
+}
