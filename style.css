@@ -292,6 +292,10 @@ footer {
   margin-right: 90px;
 }
 
+.location img {
+  align-self: flex-start;
+}
+
 .telephone {
   display: flex;
   column-gap: 20px;
@@ -306,4 +310,52 @@ footer {
 .social-icons {
   display: flex;
   column-gap: 10px;
+}
+
+@media screen and (max-width: 699px) {
+  .first-engagement {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .mockups-text {
+    justify-items: center;
+    justify-self: center;
+  }
+
+  .grow-together {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .flowing-conversations {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .your-users {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .sub-footer {
+    margin: 0;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
 }
